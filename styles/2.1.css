@@ -1,7 +1,6 @@
 body {font-family: Arial;}
 h1 {
     font-size: 32pt;
-	text-align: center;
 	font-family:Verdana !important;
 }
 
@@ -9,18 +8,21 @@ h1 em {font-weight:normal;} /* Обычная толщина шрифта йок
 
 p {
     font-size: 14pt !important;
-    text-align: justify;
 }
 	
-.picture {text-align:center;}
 p.greeting {font-size:24pt;}
 .picture img {width:67%;}
 
 
-
-address {text-align:right;}
 .advertising {margin-left: 30pt;}
 
 header {text-align: center;}
 main {text-align: justify;}
 footer {text-align: right;}
+
+div {
+	font-size: 12pt;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+}
+
