@@ -9,7 +9,7 @@ h1 em {font-weight:normal;} /* Обычная толщина шрифта йок
 p {
     font-size: 14pt !important;
 }
-	
+
 p.greeting {font-size:24pt;}
 .picture img {width:67%;}
 
@@ -26,3 +26,4 @@ div {
 	margin-bottom: 5pt;
 }
 
+.bigger {font-size: 16pt;}
