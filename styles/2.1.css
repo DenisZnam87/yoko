@@ -28,3 +28,8 @@ div {
 
 .bigger {font-size: 16pt;}
 .end {text-align: right;}
+
+table.pricelist th, table.pricelist td{
+	border: gray thin solid;
+	padding: 4px;
+}
