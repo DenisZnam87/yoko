@@ -33,3 +33,23 @@ table.pricelist th, table.pricelist td{
 	border: gray thin solid;
 	padding: 4px;
 }
+
+table.catalog {border-collapse: collapse;}
+
+table.catalog td {
+	border-top: black thin dotted;
+	border-bottom: black thin dotted;
+	padding: 10px;
+}
+
+table.catalog img {width: 200px;}
+
+table.pricelist thead th {
+	color: white;
+	background-color: gray;
+}
+
+table.pricelist tfoot tr td {
+	text-align: right;
+	font-style: italic;
+}
