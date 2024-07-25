@@ -37,8 +37,8 @@ table.pricelist th, table.pricelist td{
 table.catalog {border-collapse: collapse;}
 
 table.catalog td {
-	border-top: black thin dotted;
-	border-bottom: black thin dotted;
+	border-top: black medium double;
+	border-bottom: black medium double;
 	padding: 10px;
 }
 
@@ -52,4 +52,19 @@ table.pricelist thead th {
 table.pricelist tfoot tr td {
 	text-align: right;
 	font-style: italic;
+}
+
+nav {
+	float: left;
+	width: 150px;
+	margin: 10px 30px 10px 0px;
+	padding: 10px;
+	border: black medium double;
+	border-radius: 10px;
+}
+
+nav div {
+	font-size: 20pt;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
