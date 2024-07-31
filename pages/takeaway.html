@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Заказ еды на вынос :: Йокогама: суши-бар</title>
+    <link href="../styles/2.1.css"
+    rel="stylesheet" type="text/css">
+</head>
+<body>
+   <header><h1>Суши-бар<em>&laquo;Йокогама&raquo;</em></h1></header> 
+
+   <nav>
+    <div><a href="../index.html">Главная</a></div>
+    <div><a href="../pages/sashimi.html">Сашими</a></div>
+    <div><a href="../pages/sushi.html">Суши</a></div>
+    <div><a href="../pages/rolls.html">Роллы</a></div>
+    <div><a href="../pages/pricelist.html" target="_blank"></a>Прайс-лист</div>
+   </nav>
+
+   <main>
+        <h2>Заказ столиков</h2>
+        <form action="mailto:order@yokohama.ru"
+        method="post" enctype="text/plain">
+        <p><label for="dishes">Что желаете заказать?</label><br>
+
+        <select name="dishes" id="dishes" size="6" multiple>
+            <optgroup label="Сашими">
+                <option value="unagi">Унаги</option>
+                <option value="hamachi">Хамачи</option>
+            </optgroup>
+            <optgroup label="Суши">
+                <option value="chukka">Чyккa</option> 
+                <option value="maguro">Maгypo</option> 
+                <option value="tobiko">Toбикo</option>
+            </optgroup>
+            <optgroup label="Роллы">
+                <option value="arigato">Аригато</option> 
+                <option value="kunsei">Кунсэй-батакон</option> 
+                <option value="mexican">Мексиканский</option>
+            </optgroup>
+        </select></p>
+
+        <p><label for="phone">По какому телефону вам
+            перезвонить?</label><br>
+        <input type="text" name="phone" id="phone"></p>
+        <p><input type="submit"></p>
+        </form>
+   </main>
+   <footer><p>&copy; читатели книги &laquo;HTМL и 
+    CSS&raquo;<br>Bce права защищены.</р></footer>
+</body>
+</html>
